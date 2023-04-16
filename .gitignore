@@ -1,0 +1,11 @@
+__pycache__
+.vscode
+.idea
+venv
+.DS_Store
+test
+logs/*
+repo
+results/*
+test.py
+*.zip

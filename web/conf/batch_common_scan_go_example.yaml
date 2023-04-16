@@ -1,0 +1,5 @@
+project: "benchmark/go-sec-code"
+language: ["go"]
+proxy: "http://127.0.0.1:7890"
+output: "logs/go-sec-code.txt"
+dry: false

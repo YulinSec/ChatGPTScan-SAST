@@ -1,0 +1,6 @@
+project: "./benchmark/python_demo"
+language: ["python"]
+include: ["directory","include.py"]
+exclude: ["directory/exclude.py"]
+proxy: "http://127.0.0.1:7890"
+dry: true

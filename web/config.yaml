@@ -1,0 +1,13 @@
+db:
+  ip: db
+  port: 3306
+  username: root
+  password: password
+  database: ChatGPTScan
+web:
+  DEBUG: false
+  PERMANENT_SESSION_LIFETIME: 7
+api_key:
+  - sk-1
+  - sk-2
+  - sk-3

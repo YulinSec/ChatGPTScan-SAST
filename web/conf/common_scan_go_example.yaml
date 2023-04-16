@@ -1,0 +1,5 @@
+project: "benchmark/go-sec-code"
+language: ["go"]
+include: ["controllers/cmdi.go","utils"]
+proxy: "http://127.0.0.1:7890"
+dry: false

@@ -1,0 +1,6 @@
+project: "benchmark/go-sec-code"
+language: ["go"]
+question: "tell how many exec.Command in code above"
+include: ["controllers/cmdi.go","utils"]
+proxy: "http://127.0.0.1:7890"
+dry: false

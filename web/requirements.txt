@@ -1,0 +1,13 @@
+fire == 0.5.0
+openai
+pyyaml
+GitPython
+loguru
+sqlalchemy
+mysql-connector
+Flask
+flask-cors
+flask_restx
+loguru
+pyjwt
+gevent

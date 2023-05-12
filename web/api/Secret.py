@@ -1,7 +1,7 @@
 from flask.blueprints import Blueprint
 from flask import jsonify, request
 from .lib.auth import login_required
-from utils.mysql_utils import getAllKey, addKey, delKey
+from utils.mysql_utils import getAllKeyWithBalance, addKey, delKey
 
 Secret = Blueprint("secret", __name__, url_prefix="/api/secret")
 
@@ -9,7 +9,7 @@ Secret = Blueprint("secret", __name__, url_prefix="/api/secret")
 @Secret.route("/list", methods=["POST"])
 @login_required
 def listSecret():
-    allKey = getAllKey()
+    allKey = getAllKeyWithBalance()
     return jsonify({
         "code": 200,
         "data": allKey

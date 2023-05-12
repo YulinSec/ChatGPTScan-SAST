@@ -212,7 +212,7 @@ def getScanResult(page_num, page_size, project_name, filename, report, filename_
 
 
 @mysql_session
-def getAllKey(session) -> list:
+def getAllKeyWithBalance(session) -> list:
     queryKeyList = session.query(key_repo).all()
     keyList = []
     for queryKey in queryKeyList:
